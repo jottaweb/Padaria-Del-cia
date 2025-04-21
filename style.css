@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+    color: #a05222;
+    background-color: #f3f0f0;
+    animation: fadeIn 1.1s ease-in;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 480px;
+}
+
+#op-menu{
+    font-size: 17pt;
+    padding: 3px 10px 3px 10px;
+    color: #a05222;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#op-menu:hover{
+    transition: 0.5s all ease ;
+    color: #6d3615;
+    border-radius: 5px;
+}
+
+#icon{
+    width: 17x;
+    height: 17px;
+}
+
+#inicial-container{
+    display: flex;
+    flex-direction: row;
+    height: 850px;
+
+}
+
+#boas-vindas{
+    margin: 130px 0px 0px 70px;
+    width: 1000px;
+    height: 700px;
+}
+
+#logo-padaria{
+    height: 230px;
+    transition: all ease 0.3s;
+
+}
+
+#logo-padaria:hover{
+    transition: all ease 0.3s;
+    height: 240px;
+}
+
+#sub-titulo{
+    color: #a05222;
+    font-family: Poppins;
+    font-size: 12pt;
+    font-style: italic;
+    margin-left: 23px;
+}
+
+#sobre-padaria{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 17.5pt;
+    color: #a05222;
+    text-align: justify;
+    margin: 40px 0px 0px 20px;
+    
+}
+
+#img-padeiro{
+    width: 530px;
+    height: 820px;
+    margin: 0px 0px 0px 150px;
+    align-self: flex-end;
+    transition: 0.3s all ease;
+}
+
+#img-padeiro:hover{
+    transition: all ease 0.3s;
+    height: 830px;
+    width: 535px;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#botão{
+    text-decoration: none;
+    background-color: #a05222;
+    color: white;
+    font-size: 18pt;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+#botão:hover{
+    transform: scale(1.05);
+    border: 1px solid #a05222;
+    background-color: transparent;
+    color: #a05222;
+}
+
+#quem-somos{
+    background-color: #a05222;
+    padding: 20px;
+}
+
+#conteudo-quem-somos{
+    color: white;
+    padding: 40px 0px 0px 50px;
+    display: flex;
+    text-align: justify;
+}
+
+#logo-section2{
+    height: 50px;
+}
+
+#txt-rodape{
+    margin-left: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url(Poppins-Regular.ttf);
+}
+
+
+@media (max-width: 767px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 22px 0px 0px 0px;
+
+    }
+    
+    #menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 500px;
+    }
+    
+    #op-menu{
+        font-size: 13pt;
+        padding: 0px 10px 0px 10px;
+        color: #a05222;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #icon{
+        width: 14px;
+        height: 14px;
+    }
+
+    #inicial-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 850px;
+        width: 100%;
+    }
+    
+    #boas-vindas{
+        margin: 70px 0px 0px 0px;
+        width: 350px;
+        height: 700px;
+    }
+
+    #logo-padaria{
+        height: 140px;
+        transition: all ease 0.3s;
+    
+    }
+
+    #logo-padaria:hover{
+        transition: all ease 0.3s;
+        height: 140px;
+    }
+
+    #img-padeiro{
+        width: 280px;
+        height: 390px;
+        margin: 0px 0px 0px 0px;
+        align-self: flex-end;
+        transition: 0.3s all ease;
+        margin-top: -50px;
+    }
+
+    #img-padeiro:hover{
+        transition: all ease 0.3s;
+        height: 390px;
+        width: 280px;
+    }
+
+    #sub-titulo{
+        color: #a05222;
+        font-family: Poppins;
+        font-size: 10pt;
+        font-style: italic;
+        margin-left: 12px;
+    }
+    
+    #sobre-padaria{
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 11pt;
+        color: #a05222;
+        text-align: justify;
+        margin: 20px 20px 0px 15px;
+        
+    }
+
+    #botão{
+        text-decoration: none;
+        background-color: #a05222;
+        color: white;
+        font-size: 14pt;
+        padding: 3px 10px 3px 10px;
+        border-radius: 3px;
+        margin-left: 10px;
+        margin-top: 20px;
+        float: left;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    
+    }
+
+    #quem-somos{
+        background-color: #a05222;
+        padding: 20px;
+    }
+    
+    #conteudo-quem-somos{
+        color: white;
+        padding: 10px 0px 0px 0px;
+        display: flex;
+        text-align: justify;
+    }
+    
+    #logo-section2{
+        height: 45px;
+        margin-top: 3px;
+    }
+
+    #txt-rodape{
+        margin-left: 20px;
+        font-style: italic;
+        letter-spacing: 1px;
+        font-size: 5.5pt;
+        font-weight: normal;
+    }
+    
+}
+
